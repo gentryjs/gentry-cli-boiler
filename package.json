@@ -1,0 +1,34 @@
+{
+   "name":"gentry-boiler",
+   "description":"gentry boiler",
+   "version":"0.0.1",
+   "homepage":"http://github.com/wearefractal/gentry-boiler",
+   "repository":"git://github.com/wearefractal/gentry-boiler.git",
+   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "main":"./index.js",
+
+   "dependencies":{
+      "coffee-script":"*"
+   },
+   "devDependencies":{
+      "mocha":"*",
+      "should":"*"
+   },
+   "scripts":{
+      "test":"mocha --compilers coffee:coffee-script/register"
+   },
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/wearefractal/gentry-boiler/raw/master/LICENSE"
+      }
+   ],
+
+   "preferGlobal": "true",
+     "bin": {
+       "gentry-boiler" : "bin/index.js"
+     }
+}
