@@ -6,11 +6,11 @@
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>gentry-boiler</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>DESCRIPTIONHERE</td>
+<td>boilerplate for a generator</td>
 </tr>
 <tr>
 <td>Node Version</td>
