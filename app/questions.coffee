@@ -5,7 +5,7 @@ module.exports =
     input:
       type: String
       enum: ['coffee', 'js']
-      default: 'js'
+      default: 'coffee'
 
       # TODO: support metadata 
       #enum:
@@ -36,10 +36,3 @@ module.exports =
       type: String
       enum: ['none', 'facebook', 'twitter', 'email']
       default: 'none'
-
-  build:
-    prompt: 'build system?'
-    input: 
-      type: String
-      enum: ['gulp', 'grunt']
-      default: 'gulp'
