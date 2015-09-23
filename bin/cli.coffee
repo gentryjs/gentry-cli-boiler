@@ -1,8 +1,8 @@
 min       = require 'minimist'
 path      = require 'path'
-gentry    = require 'gentry'  
+gentry    = require 'gentry'
 
-# runner can change 
+# runner can change
 runner    = require 'gentry-cli'
 
 questions = require '../app/questions'
@@ -11,7 +11,7 @@ actions   = require '../app/actions'
 templateDir = path.resolve './app/templates/'
 
 # TODO: grab name out of package
-name = "gentry-boiler"
+name = "gentry-cli-boiler"
 autoScaffold = true
 
 # usage message
@@ -30,18 +30,18 @@ else if argv._[0] is 'scaffold'
 
   runner questions, (answers) ->
 
-    # if autoScaffold 
+    # if autoScaffold
     if autoScaffold
-      gentry.autoScaffold 
+      gentry.autoScaffold
         questions: questions
         actions: actions
         answers: answers
         templateDir: templateDir
         done: ->
-          console.log 'scaffold complete.' 
+          console.log 'scaffold complete.'
 
 # TODO: generators
-#else if 
+#else if
 
 # unrecognized command = usage
 else usage()

@@ -5,12 +5,12 @@
 ## Information
 
 <table>
-<tr> 
-<td>Package</td><td>gentry-boiler</td>
+<tr>
+<td>Package</td><td>gentry-cli-boiler</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>boilerplate for a generator</td>
+<td>boilerplate for a gentry cli</td>
 </tr>
 <tr>
 <td>Node Version</td>

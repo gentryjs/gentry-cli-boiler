@@ -1,9 +1,9 @@
 {
-   "name":"gentry-boiler",
+   "name":"gentry-cli-boiler",
    "description":"gentry boiler",
    "version":"0.0.1",
-   "homepage":"http://github.com/wearefractal/gentry-boiler",
-   "repository":"git://github.com/wearefractal/gentry-boiler.git",
+   "homepage":"http://github.com/wearefractal/gentry-cli-boiler",
+   "repository":"git://github.com/wearefractal/gentry-cli-boiler.git",
    "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
    "main":"./index.js",
 
@@ -23,12 +23,12 @@
    "licenses":[
       {
          "type":"MIT",
-         "url":"http://github.com/wearefractal/gentry-boiler/raw/master/LICENSE"
+         "url":"http://github.com/wearefractal/gentry-cli-boiler/raw/master/LICENSE"
       }
    ],
 
    "preferGlobal": "true",
      "bin": {
-       "gentry-boiler" : "bin/index.js"
+       "gentry-cli-boiler" : "bin/index.js"
      }
 }
